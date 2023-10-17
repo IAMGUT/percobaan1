@@ -1,0 +1,75 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: rgb(230, 176, 110);
+}
+
+.navbar {
+    background-color: bisque;
+    height: 10vh;
+    width: 100%;
+}
+
+.apalah {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+.iya {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 30px
+}
+
+.iya :hover{
+    background-color: antiquewhite;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 8px;
+}
+
+.a-iya {
+    color: grey;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.paragraf {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.paragraf1 {
+    background-color: beige;
+    width: 500px;
+    font-size: 20px;
+}
+
+.gambar {
+    width: 250px;
+    height: 250px;
+}
+
+.footer {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.p-footer {
+    font-size: 30px;
+    color: gray;
+}
+

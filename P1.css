@@ -1,0 +1,84 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: rgb(230, 176, 110);
+}
+
+.navbar {
+    background-color: bisque;
+    height: 10vh;
+    width: 100%;
+}
+
+.apalah {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+.iya {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 30px
+}
+
+.iya :hover{
+    background-color: antiquewhite;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 8px;
+}
+
+.a-iya {
+    color: grey;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.paragraf {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.instagram {
+    background-color: red;
+    background-image: linear-gradient(to right, yellow, red, purple, blue );
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 100px;
+    box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+}
+
+.gambar {
+    width: 250px;
+    height: 250px;
+}
+
+.footer {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.p-footer {
+    font-size: 30px;
+    color: gray;
+}
